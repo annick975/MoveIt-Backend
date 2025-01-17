@@ -17,8 +17,7 @@ const pool = new Pool({
 });
 
 // JWT Secret Key
-const JWT_SECRET = 'your_jwt_secret'; // Use a strong secret key
-
+const JWT_SECRET = ''; 
 // Signup Route
 app.post('/auth/signup', async (req, res) => {
   const { fullName, email, password } = req.body;
